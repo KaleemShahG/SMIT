@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #2980b9;
+  margin-top: 20px;
+}
+
+ul, ol, dl {
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+ul li, ol li {
+  padding: 5px 0;
+}
+
+dl dt {
+  font-weight: bold;
+  color: #27ae60;
+  margin-top: 10px;
+}
+
+dl dd {
+  margin-left: 20px;
+  color: #555;
+}
+
+
+ul ul {
+  list-style-type: circle;
+  margin-left: 20px;
+}
+
+ul ul ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+section {
+  background: #fff;
+  padding: 15px 20px;
+  margin: 15px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
