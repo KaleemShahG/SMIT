@@ -8,7 +8,7 @@ echo ===============================
 git add .
 git commit -m "Auto update from push.bat"
 git pull origin main --rebase
-git push origin mains
+git push origin main
 
 echo ===============================
 echo ✅ Push complete!
