@@ -1,0 +1,33 @@
+@font-face {
+    font-family:'Roboto';
+    src: url(fonts/Roboto-Regular.ttf);
+}
+.post{
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.post > p{
+    font-family: 'Roboto';
+    font-size: 136px;
+    font-weight: bold;
+    color: darkblue;
+    transition: text-shadow 0.2s ease, transform 0.2s ease;
+}
+/* 
+.post h2{
+   
+    font-size: 4em;
+    font-weight: 300;
+} */
+.post h4{
+    text-decoration: none;
+    font-weight: lighter;
+
+}
+.post > p:hover {
+   text-shadow: 3px 3px 3px black;
+  transform: translateY(-2px); 
+  
+}
