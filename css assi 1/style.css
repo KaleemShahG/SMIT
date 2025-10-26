@@ -48,3 +48,14 @@ H2{
     font-size: 20px;    
     transition: 0.5s;
 }
+
+.FOOTER {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    border-top: 2px solid currentColor;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-decoration-line: none;
+}
