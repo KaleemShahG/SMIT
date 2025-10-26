@@ -58,4 +58,9 @@ H2{
     border-top: 2px solid currentColor;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     text-decoration-line: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-spacing-trim: normal;
+
+
 }
