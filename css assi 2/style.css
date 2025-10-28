@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -37,4 +38,35 @@ h1{
 }
 .para2::first-line{
    color: rgb(100, 95, 255);
+}
+.links
+{
+    margin: 20px;
+    text-align: left;
+}
+.links a
+{
+    
+    color: rgb(30, 0, 255);
+    text-decoration: none;
+    border-radius: 5px;
+}
+.links a:hover
+{
+    color: rgb(255, 151, 53);
+    text-decoration: underline;
+}
+.links a:visited
+{
+    color: purple;
+    
+}
+.links a:focus{
+    outline: 2px solid orange;
+
+}
+footer{
+    margin-top: 40px;
+  
+    text-weight: bold;
 }
