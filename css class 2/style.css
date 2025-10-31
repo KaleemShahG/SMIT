@@ -26,8 +26,10 @@
     font-weight: lighter;
 
 }
+/* fixed hover selector */
 .post > p:hover {
-   text-shadow: 3px 3px 3px black;
+  text-shadow: 5px 5px 5px black;
+  text-decoration: underline;
   transform: translateY(-2px); 
   
 }
