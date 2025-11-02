@@ -17,22 +17,25 @@ table{
     text-align: center;
 
 }
-li{
+/* li{
     list-style: none;
     margin-right: 15px;
     display: inline;
-}
+} */
 .dashboard{
+
+    position: relative;
+    list-style: square;
     background-color: #4CAF50;
-    color: rgb(251, 247, 5);
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 15px ;
+    text-align: right;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: none;
     cursor: pointer;
-    border-radius: 12px;
+    width: 100%;
+    font-weight: bold;
 }
 .dashboard:hover{
     background-color: #000000;
