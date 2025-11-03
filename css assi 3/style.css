@@ -1,12 +1,14 @@
 *{
    
-    background-color: rgb(234, 253, 246);
+    background-color: rgb(211, 224, 219);
 }
 h2{
     text-align: center;
-    color: rgb(25, 104, 161);
+    color: rgb(26, 106, 186);
     font-family: 'Georgia',  serif;
-    font-size: 40px;
+    font-size: 50px;
+    margin-bottom: 2%
+
 };
 .line1{
     text-align: center;
@@ -20,7 +22,7 @@ h2{
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
    padding: 40px;
     margin: auto;
-    max-width: 50%;
+    max-width: 35%;
     border-radius: 8px;
 }
 .line2{
@@ -28,11 +30,11 @@ h2{
     font-size: 15px;
 }
 p{
+    padding-top: 0%;
     text-align: center;
     font-size: large;
     font-family: 'Georgia',  serif;
-    
-
+    margin-top: 0%;
 }
 
 button{
@@ -51,16 +53,7 @@ input{
     border-color: gray;
     background-color: white;
     border-width: 1px;
-    width: 80%;
-}
-input password{
-    padding: 8px;
-    border-radius: 8px;
-    font-size: 15px;
-    border-color: gray;
-    background-color: white;
-    border-width: 1px;
-    width: 80%;
+    width: 100%;
 }
 a{
     text-decoration: none;
@@ -68,4 +61,32 @@ a{
 }
 a:hover{
     text-decoration: underline;
+}
+.newaccount{
+    margin-top: 20px;
+    font-weight: bold;
+    background-color: transparent;
+}
+.forgotten-password{
+    color: rgb(25, 104, 161);
+    font-size: small;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    background-color: transparent;
+    
+
+}
+.Loginbutton{
+     padding: 8px;
+    border-radius: 8px;
+    font-size: 15px;
+    border-color: gray;
+    background-color: white;
+    border-width: 1px;
+    width: 105%;
+    background-color: rgb(10, 115, 201);
+    color: white;
+    font-weight: bold;
+
 }
