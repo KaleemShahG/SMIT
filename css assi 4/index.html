@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZOMATO</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+   <header>    
+        <nav class="grid-container">
+            
+                <section class="logo">
+                    <img src="IMAGES/logo.png" width="150">
+                    <input type="search" id="search" name="search" class="location-input">
+                    <input type="search" id="search" name="search" placeholder="Search for restaurant, cuisine or a dish" class="search-input">   
+                    
+                    <a href="#">Log in</a>
+                    <a href="#">Sign up</a>
+                </section>
+            
+                
+        <section class="navbar">
+            <a href="#">Home</a><span>/</span>
+            <a href="#">Pakistan</a><span>/</span>
+            <a href="#">Karachi</a>
+        </section>
+        
+        <section class="button">
+            <button type="button">Filter</button>
+            <button type="button">Pure Veg</button>
+            <select>
+                <option value="cusisien">Cuisien</option>
+                <option value="pakistani">Pakistani</option>
+                <option value="continental">Continental</option>
+                <option value="indian">Indian</option>
+            </select>
+        </section>        
+        </nav>
+   </header>
+   <hr>
+
+   <!-- MAIN SECTION START'S HERE -->
+   <main>
+    <h1>Inspiration for your first order</h1>
+    <section class="inspiration-card">
+        <div class="card">
+            <figure>
+                <img src="IMAGES/pizza01.jpg" alt="pizza-img">
+                <figcaption>PIZZA</figcaption>
+            </figure>
+        </div>
+        <div class="card">
+            <figure>
+                <img src="IMAGES/chicken.png" alt="pizza-img">
+                <figcaption>CHICKEN</figcaption>
+            </figure>
+        </div>
+        <div class="card">
+            <figure>
+                <img src="IMAGES/burger03.png" alt="pizza-img">
+                <figcaption>BURGER</figcaption>
+            </figure>
+        </div>
+        <div class="card">
+            <figure>
+                <img src="IMAGES/sandwhich04.jpg" alt="pizza-img">
+                <figcaption>SANDWICH</figcaption>
+            </figure>
+        </div>
+        <div class="card">
+            <figure>
+                <img src="IMAGES/thali05.jpg" alt="pizza-img">
+                <figcaption>THALI</figcaption>
+            </figure>
+        </div>
+        <div class="card">
+            <figure>
+                <img src="IMAGES/cack06.png" alt="pizza-img">
+                <figcaption>CAKE</figcaption>
+            </figure>
+        </div>
+
+    </section>
+    <hr>
+
+    <!-- INSPIRATION SECTION END'S HERE -->
+
+    <!-- BRAND SECTION START HERE -->
+
+        <h1>Top brands for you</h1>
+    <section class="brand-card">
+        <div class="card">
+            <figure>
+                <img src="IMAGES/brand01.jpg" alt="pizza-img">
+                <figcaption>Burger Singh - Big Punjabi Burger</figcaption>
+            </figure>
+            <p>25 min</p>
+        </div>
+        <div class="card">
+            <figure>
+                <img src="IMAGES/brand02.jpg" alt="pizza-img">
+                <figcaption>La Pino'z Pizza</figcaption>
+            </figure>
+            <p>21 min</p>
+        </div>
+        <div class="card">
+            <figure>
+                <img src="IMAGES/brand03.jpg" alt="pizza-img">
+                <figcaption>Paratha Express</figcaption>
+            </figure>
+            <p>30 min</p>
+        </div>
+        <div class="card">
+            <figure>
+                <img src="IMAGES/brand04.png" alt="pizza-img">
+                <figcaption>Ghar Ka Khana</figcaption>
+            </figure>
+            <p>32 min</p>
+        </div>
+        <div class="card">
+            <figure>
+                <img src="IMAGES/brand05.jpg" alt="pizza-img">
+                <figcaption>Satluj Punjabi Hotel</figcaption>
+            </figure>
+            <p>27 min</p>
+        </div>
+        <div class="card">
+            <figure>
+                <img src="IMAGES/brand06.jpg" alt="pizza-img">
+                <figcaption>Sai Dining Halll</figcaption>
+            </figure>
+            <p>18 min</p>
+        </div>
+
+    </section>
+    <hr>
+
+    <!-- BRAND SECTION END'S HERE -->
+     <!-- RESTAURANT SECTION START HERER -->
+
+ <h1>RESTAURANTS</h1>
+    <section class="restaurant">
+        <div class="card">
+            <figure>
+                <img src="IMAGES/Resta-Images/res-pizza.jpg" alt="pizza-img">
+                <div class="discount">
+                    <p>30% OFF</p>
+                </div>
+            </figure>
+            <div class="info1">
+                <p>USPizza</p> <p class="ratting"> 4.0 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M288.1-32c9 0 17.3 5.1 21.4 13.1L383 125.3 542.9 150.7c8.9 1.4 16.3 7.7 19.1 16.3s.5 18-5.8 24.4L441.7 305.9 467 465.8c1.4 8.9-2.3 17.9-9.6 23.2s-17 6.1-25 2L288.1 417.6 143.8 491c-8 4.1-17.7 3.3-25-2s-11-14.2-9.6-23.2L134.4 305.9 20 191.4c-6.4-6.4-8.6-15.8-5.8-24.4s10.1-14.9 19.1-16.3l159.9-25.4 73.6-144.2c4.1-8 12.4-13.1 21.4-13.1zm0 76.8L230.3 158c-3.5 6.8-10 11.6-17.6 12.8l-125.5 20 89.8 89.9c5.4 5.4 7.9 13.1 6.7 20.7l-19.8 125.5 113.3-57.6c6.8-3.5 14.9-3.5 21.8 0l113.3 57.6-19.8-125.5c-1.2-7.6 1.3-15.3 6.7-20.7l89.8-89.9-125.5-20c-7.6-1.2-14.1-6-17.6-12.8L288.1 44.8z"/></svg> </p> 
+            </div>
+            <div class="info2">
+                <p>Pizza, Fast Food</p> <p>Rs. 500 for one</p> 
+            </div>
+            <p style="text-align: right; padding-right: 1em;"> 26 min</p>
+        </div>
+        <div class="card">
+            <figure>
+                <img src="IMAGES/Resta-Images/res-chicken.jpg" alt="pizza-img">
+                <div class="discount">
+                    <p>30% OFF</p>
+                </div>
+            </figure>
+            <div class="info1">
+                <p>Faizz Restaurant</p> <p class="ratting"> 3.9 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M288.1-32c9 0 17.3 5.1 21.4 13.1L383 125.3 542.9 150.7c8.9 1.4 16.3 7.7 19.1 16.3s.5 18-5.8 24.4L441.7 305.9 467 465.8c1.4 8.9-2.3 17.9-9.6 23.2s-17 6.1-25 2L288.1 417.6 143.8 491c-8 4.1-17.7 3.3-25-2s-11-14.2-9.6-23.2L134.4 305.9 20 191.4c-6.4-6.4-8.6-15.8-5.8-24.4s10.1-14.9 19.1-16.3l159.9-25.4 73.6-144.2c4.1-8 12.4-13.1 21.4-13.1zm0 76.8L230.3 158c-3.5 6.8-10 11.6-17.6 12.8l-125.5 20 89.8 89.9c5.4 5.4 7.9 13.1 6.7 20.7l-19.8 125.5 113.3-57.6c6.8-3.5 14.9-3.5 21.8 0l113.3 57.6-19.8-125.5c-1.2-7.6 1.3-15.3 6.7-20.7l89.8-89.9-125.5-20c-7.6-1.2-14.1-6-17.6-12.8L288.1 44.8z"/></svg> </p> 
+            </div>
+            <div class="info2">
+                <p>Chinese, North Indian</p> <p>Rs. 300 for one</p> 
+            </div>
+            <p style="text-align: right; padding-right: 1em;"> 20 min</p>
+        </div>
+        <div class="card">
+            <figure>
+                <img src="IMAGES/Resta-Images/res-punjab.jpg" alt="pizza-img">
+                <div class="discount">
+                    <p>50% OFF</p>
+                </div>
+            </figure>
+            <div class="info1">
+                <p>Sher E Punjab Dhaba</p> <p class="ratting"> 4.5 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M288.1-32c9 0 17.3 5.1 21.4 13.1L383 125.3 542.9 150.7c8.9 1.4 16.3 7.7 19.1 16.3s.5 18-5.8 24.4L441.7 305.9 467 465.8c1.4 8.9-2.3 17.9-9.6 23.2s-17 6.1-25 2L288.1 417.6 143.8 491c-8 4.1-17.7 3.3-25-2s-11-14.2-9.6-23.2L134.4 305.9 20 191.4c-6.4-6.4-8.6-15.8-5.8-24.4s10.1-14.9 19.1-16.3l159.9-25.4 73.6-144.2c4.1-8 12.4-13.1 21.4-13.1zm0 76.8L230.3 158c-3.5 6.8-10 11.6-17.6 12.8l-125.5 20 89.8 89.9c5.4 5.4 7.9 13.1 6.7 20.7l-19.8 125.5 113.3-57.6c6.8-3.5 14.9-3.5 21.8 0l113.3 57.6-19.8-125.5c-1.2-7.6 1.3-15.3 6.7-20.7l89.8-89.9-125.5-20c-7.6-1.2-14.1-6-17.6-12.8L288.1 44.8z"/></svg> </p> 
+            </div>
+            <div class="info2">
+                <p>Chinese, North Indian</p> <p>Rs. 500 for one</p> 
+            </div>
+            <p style="text-align: right; padding-right: 1em;"> 26 min</p>
+        </div>
+        <div class="card">
+            <figure>
+                <img src="IMAGES/Resta-Images/res-burger.jpg" alt="pizza-img">
+                <div class="discount">
+                    <p>30% OFF</p>
+                </div>
+            </figure>
+            <div class="info1">
+                <p>Burger Singh - Big Punjabi Bur...</p> <p class="ratting"> 4.0 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M288.1-32c9 0 17.3 5.1 21.4 13.1L383 125.3 542.9 150.7c8.9 1.4 16.3 7.7 19.1 16.3s.5 18-5.8 24.4L441.7 305.9 467 465.8c1.4 8.9-2.3 17.9-9.6 23.2s-17 6.1-25 2L288.1 417.6 143.8 491c-8 4.1-17.7 3.3-25-2s-11-14.2-9.6-23.2L134.4 305.9 20 191.4c-6.4-6.4-8.6-15.8-5.8-24.4s10.1-14.9 19.1-16.3l159.9-25.4 73.6-144.2c4.1-8 12.4-13.1 21.4-13.1zm0 76.8L230.3 158c-3.5 6.8-10 11.6-17.6 12.8l-125.5 20 89.8 89.9c5.4 5.4 7.9 13.1 6.7 20.7l-19.8 125.5 113.3-57.6c6.8-3.5 14.9-3.5 21.8 0l113.3 57.6-19.8-125.5c-1.2-7.6 1.3-15.3 6.7-20.7l89.8-89.9-125.5-20c-7.6-1.2-14.1-6-17.6-12.8L288.1 44.8z"/></svg> </p> 
+            </div>
+            <div class="info2">
+                <p>Burger, Fast Food</p> <p>Rs. 380 for one</p> 
+            </div>
+            <p style="text-align: right; padding-right: 1em;"> 25 min</p>
+        </div>
+        <div class="card">
+            <figure>
+                <img src="IMAGES/Resta-Images/res-cake.jpg" alt="pizza-img">
+                <div class="discount">
+                    <p>50% OFF</p>
+                </div>
+            </figure>
+            <div class="info1">
+                <p>La Bellaz Cake Shop</p> <p class="ratting"> 4.1 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M288.1-32c9 0 17.3 5.1 21.4 13.1L383 125.3 542.9 150.7c8.9 1.4 16.3 7.7 19.1 16.3s.5 18-5.8 24.4L441.7 305.9 467 465.8c1.4 8.9-2.3 17.9-9.6 23.2s-17 6.1-25 2L288.1 417.6 143.8 491c-8 4.1-17.7 3.3-25-2s-11-14.2-9.6-23.2L134.4 305.9 20 191.4c-6.4-6.4-8.6-15.8-5.8-24.4s10.1-14.9 19.1-16.3l159.9-25.4 73.6-144.2c4.1-8 12.4-13.1 21.4-13.1zm0 76.8L230.3 158c-3.5 6.8-10 11.6-17.6 12.8l-125.5 20 89.8 89.9c5.4 5.4 7.9 13.1 6.7 20.7l-19.8 125.5 113.3-57.6c6.8-3.5 14.9-3.5 21.8 0l113.3 57.6-19.8-125.5c-1.2-7.6 1.3-15.3 6.7-20.7l89.8-89.9-125.5-20c-7.6-1.2-14.1-6-17.6-12.8L288.1 44.8z"/></svg> </p> 
+            </div>
+            <div class="info2">
+                <p>Bakery, Dessert</p> <p>Rs. 350 for one</p> 
+            </div>
+            <p style="text-align: right; padding-right: 1em;"> 20 min</p>
+        </div>
+        <div class="card">
+            <figure>
+                <img src="IMAGES/Resta-Images/res-biryani.jpg" alt="pizza-img">
+                <div class="discount">
+                    <p>25% OFF</p>
+                </div>
+            </figure>
+            <div class="info1">
+                <p>New Arabian Albek</p> <p class="ratting"> 4.5 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M288.1-32c9 0 17.3 5.1 21.4 13.1L383 125.3 542.9 150.7c8.9 1.4 16.3 7.7 19.1 16.3s.5 18-5.8 24.4L441.7 305.9 467 465.8c1.4 8.9-2.3 17.9-9.6 23.2s-17 6.1-25 2L288.1 417.6 143.8 491c-8 4.1-17.7 3.3-25-2s-11-14.2-9.6-23.2L134.4 305.9 20 191.4c-6.4-6.4-8.6-15.8-5.8-24.4s10.1-14.9 19.1-16.3l159.9-25.4 73.6-144.2c4.1-8 12.4-13.1 21.4-13.1zm0 76.8L230.3 158c-3.5 6.8-10 11.6-17.6 12.8l-125.5 20 89.8 89.9c5.4 5.4 7.9 13.1 6.7 20.7l-19.8 125.5 113.3-57.6c6.8-3.5 14.9-3.5 21.8 0l113.3 57.6-19.8-125.5c-1.2-7.6 1.3-15.3 6.7-20.7l89.8-89.9-125.5-20c-7.6-1.2-14.1-6-17.6-12.8L288.1 44.8z"/></svg> </p> 
+            </div>
+            <div class="info2">
+                <p>Biryani, Pakistani</p> <p>Rs. 500 for one</p> 
+            </div>
+            <p style="text-align: right; padding-right: 1em;"> 26 min</p>
+        </div>
+        
+        <!--  -->
+
+         <div class="card">
+            <figure>
+                <img src="IMAGES/Resta-Images/res-pizza.jpg" alt="pizza-img">
+                <div class="discount">
+                    <p>30% OFF</p>
+                </div>
+            </figure>
+            <div class="info1">
+                <p>USPizza</p> <p class="ratting"> 4.0 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M288.1-32c9 0 17.3 5.1 21.4 13.1L383 125.3 542.9 150.7c8.9 1.4 16.3 7.7 19.1 16.3s.5 18-5.8 24.4L441.7 305.9 467 465.8c1.4 8.9-2.3 17.9-9.6 23.2s-17 6.1-25 2L288.1 417.6 143.8 491c-8 4.1-17.7 3.3-25-2s-11-14.2-9.6-23.2L134.4 305.9 20 191.4c-6.4-6.4-8.6-15.8-5.8-24.4s10.1-14.9 19.1-16.3l159.9-25.4 73.6-144.2c4.1-8 12.4-13.1 21.4-13.1zm0 76.8L230.3 158c-3.5 6.8-10 11.6-17.6 12.8l-125.5 20 89.8 89.9c5.4 5.4 7.9 13.1 6.7 20.7l-19.8 125.5 113.3-57.6c6.8-3.5 14.9-3.5 21.8 0l113.3 57.6-19.8-125.5c-1.2-7.6 1.3-15.3 6.7-20.7l89.8-89.9-125.5-20c-7.6-1.2-14.1-6-17.6-12.8L288.1 44.8z"/></svg> </p> 
+            </div>
+            <div class="info2">
+                <p>Pizza, Fast Food</p> <p>Rs. 500 for one</p> 
+            </div>
+            <p style="text-align: right; padding-right: 1em;"> 26 min</p>
+        </div>
+        <div class="card">
+            <figure>
+                <img src="IMAGES/Resta-Images/res-chicken.jpg" alt="pizza-img">
+                <div class="discount">
+                    <p>30% OFF</p>
+                </div>
+            </figure>
+            <div class="info1">
+                <p>Faizz Restaurant</p> <p class="ratting"> 3.9 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M288.1-32c9 0 17.3 5.1 21.4 13.1L383 125.3 542.9 150.7c8.9 1.4 16.3 7.7 19.1 16.3s.5 18-5.8 24.4L441.7 305.9 467 465.8c1.4 8.9-2.3 17.9-9.6 23.2s-17 6.1-25 2L288.1 417.6 143.8 491c-8 4.1-17.7 3.3-25-2s-11-14.2-9.6-23.2L134.4 305.9 20 191.4c-6.4-6.4-8.6-15.8-5.8-24.4s10.1-14.9 19.1-16.3l159.9-25.4 73.6-144.2c4.1-8 12.4-13.1 21.4-13.1zm0 76.8L230.3 158c-3.5 6.8-10 11.6-17.6 12.8l-125.5 20 89.8 89.9c5.4 5.4 7.9 13.1 6.7 20.7l-19.8 125.5 113.3-57.6c6.8-3.5 14.9-3.5 21.8 0l113.3 57.6-19.8-125.5c-1.2-7.6 1.3-15.3 6.7-20.7l89.8-89.9-125.5-20c-7.6-1.2-14.1-6-17.6-12.8L288.1 44.8z"/></svg> </p> 
+            </div>
+            <div class="info2">
+                <p>Chinese, North Indian</p> <p>Rs. 300 for one</p> 
+            </div>
+            <p style="text-align: right; padding-right: 1em;"> 20 min</p>
+        </div>
+        <div class="card">
+            <figure>
+                <img src="IMAGES/Resta-Images/res-punjab.jpg" alt="pizza-img">
+                <div class="discount">
+                    <p>50% OFF</p>
+                </div>
+            </figure>
+            <div class="info1">
+                <p>Sher E Punjab Dhaba</p> <p class="ratting"> 4.5 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M288.1-32c9 0 17.3 5.1 21.4 13.1L383 125.3 542.9 150.7c8.9 1.4 16.3 7.7 19.1 16.3s.5 18-5.8 24.4L441.7 305.9 467 465.8c1.4 8.9-2.3 17.9-9.6 23.2s-17 6.1-25 2L288.1 417.6 143.8 491c-8 4.1-17.7 3.3-25-2s-11-14.2-9.6-23.2L134.4 305.9 20 191.4c-6.4-6.4-8.6-15.8-5.8-24.4s10.1-14.9 19.1-16.3l159.9-25.4 73.6-144.2c4.1-8 12.4-13.1 21.4-13.1zm0 76.8L230.3 158c-3.5 6.8-10 11.6-17.6 12.8l-125.5 20 89.8 89.9c5.4 5.4 7.9 13.1 6.7 20.7l-19.8 125.5 113.3-57.6c6.8-3.5 14.9-3.5 21.8 0l113.3 57.6-19.8-125.5c-1.2-7.6 1.3-15.3 6.7-20.7l89.8-89.9-125.5-20c-7.6-1.2-14.1-6-17.6-12.8L288.1 44.8z"/></svg> </p> 
+            </div>
+            <div class="info2">
+                <p>Chinese, North Indian</p> <p>Rs. 500 for one</p> 
+            </div>
+            <p style="text-align: right; padding-right: 1em;"> 26 min</p>
+        </div>
+        <div class="card">
+            <figure>
+                <img src="IMAGES/Resta-Images/res-burger.jpg" alt="pizza-img">
+                <div class="discount">
+                    <p>30% OFF</p>
+                </div>
+            </figure>
+            <div class="info1">
+                <p>Burger Singh - Big Punjabi Bur...</p> <p class="ratting"> 4.0 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M288.1-32c9 0 17.3 5.1 21.4 13.1L383 125.3 542.9 150.7c8.9 1.4 16.3 7.7 19.1 16.3s.5 18-5.8 24.4L441.7 305.9 467 465.8c1.4 8.9-2.3 17.9-9.6 23.2s-17 6.1-25 2L288.1 417.6 143.8 491c-8 4.1-17.7 3.3-25-2s-11-14.2-9.6-23.2L134.4 305.9 20 191.4c-6.4-6.4-8.6-15.8-5.8-24.4s10.1-14.9 19.1-16.3l159.9-25.4 73.6-144.2c4.1-8 12.4-13.1 21.4-13.1zm0 76.8L230.3 158c-3.5 6.8-10 11.6-17.6 12.8l-125.5 20 89.8 89.9c5.4 5.4 7.9 13.1 6.7 20.7l-19.8 125.5 113.3-57.6c6.8-3.5 14.9-3.5 21.8 0l113.3 57.6-19.8-125.5c-1.2-7.6 1.3-15.3 6.7-20.7l89.8-89.9-125.5-20c-7.6-1.2-14.1-6-17.6-12.8L288.1 44.8z"/></svg> </p> 
+            </div>
+            <div class="info2">
+                <p>Burger, Fast Food</p> <p>Rs. 380 for one</p> 
+            </div>
+            <p style="text-align: right; padding-right: 1em;"> 25 min</p>
+        </div>
+        <div class="card">
+            <figure>
+                <img src="IMAGES/Resta-Images/res-cake.jpg" alt="pizza-img">
+                <div class="discount">
+                    <p>50% OFF</p>
+                </div>
+            </figure>
+            <div class="info1">
+                <p>La Bellaz Cake Shop</p> <p class="ratting"> 4.1 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M288.1-32c9 0 17.3 5.1 21.4 13.1L383 125.3 542.9 150.7c8.9 1.4 16.3 7.7 19.1 16.3s.5 18-5.8 24.4L441.7 305.9 467 465.8c1.4 8.9-2.3 17.9-9.6 23.2s-17 6.1-25 2L288.1 417.6 143.8 491c-8 4.1-17.7 3.3-25-2s-11-14.2-9.6-23.2L134.4 305.9 20 191.4c-6.4-6.4-8.6-15.8-5.8-24.4s10.1-14.9 19.1-16.3l159.9-25.4 73.6-144.2c4.1-8 12.4-13.1 21.4-13.1zm0 76.8L230.3 158c-3.5 6.8-10 11.6-17.6 12.8l-125.5 20 89.8 89.9c5.4 5.4 7.9 13.1 6.7 20.7l-19.8 125.5 113.3-57.6c6.8-3.5 14.9-3.5 21.8 0l113.3 57.6-19.8-125.5c-1.2-7.6 1.3-15.3 6.7-20.7l89.8-89.9-125.5-20c-7.6-1.2-14.1-6-17.6-12.8L288.1 44.8z"/></svg> </p> 
+            </div>
+            <div class="info2">
+                <p>Bakery, Dessert</p> <p>Rs. 350 for one</p> 
+            </div>
+            <p style="text-align: right; padding-right: 1em;"> 20 min</p>
+        </div>
+        <div class="card">
+            <figure>
+                <img src="IMAGES/Resta-Images/res-biryani.jpg" alt="pizza-img">
+                <div class="discount">
+                    <p>25% OFF</p>
+                </div>
+            </figure>
+            <div class="info1">
+                <p>New Arabian Albek</p> <p class="ratting"> 4.5 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M288.1-32c9 0 17.3 5.1 21.4 13.1L383 125.3 542.9 150.7c8.9 1.4 16.3 7.7 19.1 16.3s.5 18-5.8 24.4L441.7 305.9 467 465.8c1.4 8.9-2.3 17.9-9.6 23.2s-17 6.1-25 2L288.1 417.6 143.8 491c-8 4.1-17.7 3.3-25-2s-11-14.2-9.6-23.2L134.4 305.9 20 191.4c-6.4-6.4-8.6-15.8-5.8-24.4s10.1-14.9 19.1-16.3l159.9-25.4 73.6-144.2c4.1-8 12.4-13.1 21.4-13.1zm0 76.8L230.3 158c-3.5 6.8-10 11.6-17.6 12.8l-125.5 20 89.8 89.9c5.4 5.4 7.9 13.1 6.7 20.7l-19.8 125.5 113.3-57.6c6.8-3.5 14.9-3.5 21.8 0l113.3 57.6-19.8-125.5c-1.2-7.6 1.3-15.3 6.7-20.7l89.8-89.9-125.5-20c-7.6-1.2-14.1-6-17.6-12.8L288.1 44.8z"/></svg> </p> 
+            </div>
+            <div class="info2">
+                <p>Biryani, Pakistani</p> <p>Rs. 500 for one</p> 
+            </div>
+            <p style="text-align: right; padding-right: 1em;"> 26 min</p>
+        </div>
+
+    </section>
+
+
+
+   </main>
+    
+</body>
+</html>
