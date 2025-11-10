@@ -1,0 +1,13 @@
+p{
+    font-size: 20px;
+    color: green;
+
+}
+.animate__bounce {
+    font-size: 24px;
+    color: blue;
+}
+.animate__zoomInDown {
+    font-size: 30px;
+    color: red;
+}
