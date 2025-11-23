@@ -25,7 +25,9 @@ background-color: grey
     color: white;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    padding: 2px;
+    /* padding: 2px; */
+    padding-left: 20px;
+    padding-right: 20px;
    
 }
 button{
@@ -44,6 +46,8 @@ button{
     position: sticky;
     top: 0;
     z-index: 1000; 
+    padding: 0%;
+    margin-bottom: 5px;
    
 }
 
@@ -93,53 +97,130 @@ button{
     background-color: #1100a8;  /* Pink */
     color: white;
 }
-.icon {
-    font-size: 32px;
-    margin-bottom: 5px;
+.titles{
+    background-color: rgb(255, 104, 200);
+    color: rgb(177, 0, 130);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    height: 100px;
+    weight:50px ;
+    
+    
+    
+    
+
+    
+
+}
+.main-section{
+    margin: 30px;
+    background-color: black;
+}
+/* Sticky Login */
+.sticky-login {
+    position: fixed;
+    left: 10px;
+    top: 150px;
+    padding: 10px;
+    background: #32a852;
+    border-radius: 6px;
+    width: 70px;
+    text-align: center;
+    cursor: pointer;
 }
 
-.label {
-    font-size: 14px;
-    font-weight: 600;
-}
-.cards-container {
-    display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
-    justify-content: center;
+.sticky-login .icon {
+    font-size: 30px;
 }
 
-.card {
+/* Sticky Search */
+.sticky-search {
+    position: fixed;
+    left: 10px;
+    top: 240px;
+    background: #444;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.sticky-search .icon {
+    font-size: 24px;
+}
+
+/* Signup Section */
+.signup-section {
+   
+    margin: auto;
+    text-align: left;
+    background-color: #000;
+    color: white;
+    margin: 0% !important;
+    padding: 0% !important;
+
+}
+
+.signup-form {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
-    transition: transform 0.3s ease;
+    gap: 15px;
 }
 
-.card:hover {
-    transform: translateY(-5px);
+.signup-form input,
+.signup-form select {
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    width: 100%;
 }
 
-/* Big image card */
-.card.large img {
-    width: 300px;
-    height: 200px;
-    object-fit: cover;
+.checkbox-group label {
+    display: block;
+    margin-top: 5px;
 }
 
-/* Small image cards */
-.card.small img {
-    width: 150px;
-    height: 100px;
-    object-fit: cover;
+.terms {
+    margin-top: 10px;
 }
 
-.card p {
-    margin-top: 8px;
-    font-weight: 500;
-    font-size: 14px;
+.signup-form button {
+    padding: 12px;
+    background: #7a7a7a;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
 }
+
+/* Footer */
+footer {
+    margin-top: 80px;
+    padding: 40px;
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer a {
+    display: block;
+    color: #ffffff;
+    margin-top: 6px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+.footer-right {
+    text-align: right;
+    color: white;
+}
+body{
+    background-color: #000;
+}
+.footer-left{
+color: white;
+} 
