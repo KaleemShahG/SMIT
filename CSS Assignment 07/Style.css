@@ -1,0 +1,104 @@
+.track {
+    display: flex;         
+    gap: 10px;           
+    overflow-x: auto;  
+    background-color: black;
+    color: black;
+
+}
+
+.item img {
+    width:50px;          
+    height:50px;
+   
+}
+
+.image-small{
+background-color: grey
+}
+*{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.image-text{
+    background-color: rgb(43, 43, 43);
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 2px;
+   
+}
+button{
+    background-color: rgb(255, 94, 0);
+    font-weight: bold;
+    color: white;
+}
+
+.dashboard {
+    display: flex;
+    /* gap: 30px; */
+    justify-content: center;
+    /* padding: 20px; */
+    background: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+   
+}
+
+.dashboard a {
+    text-decoration: none;
+    color: #898989;
+    width: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.3s ease;
+    background-color: white;
+   
+}
+
+.dashboard a:hover {
+    background-color: #ff0000;
+    color: #ffffff;
+    transform: translateY(-5px);
+}
+.dashboard a:nth-child(1):hover {
+    background-color: #ff0000;  /* Red */
+    color: white;
+}
+.dashboard a:nth-child(2):hover {
+    background-color: #ff7700;  /* Blue */
+    color: white;
+}
+
+.dashboard a:nth-child(3):hover {
+    background-color: #ffc400;  /* Yellow */
+    color: white;
+}
+
+.dashboard a:nth-child(4):hover {
+    background-color: #19bf00;  /* Green */
+    color: white;
+}
+
+.dashboard a:nth-child(5):hover {
+    background-color: #00ddff;  /* Purple */
+    color: white;
+}
+
+.dashboard a:nth-child(6):hover {
+    background-color: #1100a8;  /* Pink */
+    color: white;
+}
+.icon {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.label {
+    font-size: 14px;
+    font-weight: 600;
+}
