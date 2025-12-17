@@ -32,3 +32,5 @@ console.log(result);
 var add = newstudents.splice(1,0,"hamza","salim"); //Add kardyga 1 ka mtlb index 1 or zero ka mtlb length 0
 console.log(add);
 
+var add2= newstudents.splice(1,0,"salman","fahim"); //Add kardyga 1 ka mtlb index 1 or zero ka mtlb length 0
+console.log(add2);
