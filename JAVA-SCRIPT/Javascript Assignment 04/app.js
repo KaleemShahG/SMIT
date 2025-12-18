@@ -36,3 +36,14 @@ scores.sort(function(a, b) {
 });
 
 document.write("After Sort (Ascending): " + scores);
+
+
+
+var phones = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+
+document.write("<h3>Phone Manufacturers</h3>");
+document.write("<select>");
+for (var i = 0; i < phones.length; i++) {
+    document.write("<option>" + phones[i] + "</option>");
+}
+document.write("</select>");
