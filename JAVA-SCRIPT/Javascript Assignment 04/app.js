@@ -47,3 +47,4 @@ for (var i = 0; i < phones.length; i++) {
     document.write("<option>" + phones[i] + "</option>");
 }
 document.write("</select>");
+
