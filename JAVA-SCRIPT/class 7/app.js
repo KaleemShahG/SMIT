@@ -31,4 +31,7 @@ let firstChar = myname.charAt(0);
 console.log(firstChar);
 
 // ===============Replace=================
+let sentence = "I love JavaScript";
+let newSentence = sentence.replace("JavaScript", "JS");
+console.log(newSentence);
 
