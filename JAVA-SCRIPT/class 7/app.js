@@ -27,11 +27,11 @@ for (var i=1; i<=10; i++){
 
 //================CharAT===================
 let myname = "Kaleem";
-let firstChar = myname.charAt(0);
-console.log(firstChar);
+let myfirstChar = myname.charAt(0);
+console.log(myfirstChar);
 
 // ===============Replace=================
-let sentence = "I love JavaScript";
+let sentence = "I like JavaScript";
 let newSentence = sentence.replace("JavaScript", "JS");
 console.log(newSentence);
 
