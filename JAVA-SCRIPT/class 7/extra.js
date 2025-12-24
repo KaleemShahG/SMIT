@@ -16,3 +16,8 @@ console.log(UpperName2);
 let name = "SYED KALEEM SHAH";
 let lowerName = name.toLowerCase();
 console.log(lowerName);
+
+// ==========indexOf & LastIndexOf==========
+var text = "yes may be possible and may not be"
+console.log(text.indexOf("may"));
+console.log(text.lastIndexOf("may"));
