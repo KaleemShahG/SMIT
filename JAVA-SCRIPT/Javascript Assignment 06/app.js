@@ -34,3 +34,8 @@
 // var newMessage = message.replace(/and/g, "&");
 // document.write(newMessage);
 
+// var str = "472";
+// var num = Number(str);
+// document.write("Value: " + num + "<br>");
+// document.write("Type: " + typeof(num));
+
