@@ -43,3 +43,8 @@
 // var capitalText = userInput.toUpperCase();
 // document.write("Result: " + capitalText);
 
+// var userInput = prompt("Enter any text:");
+// var firstChar = userInput.slice(0,1).toUpperCase();
+// var remainingChars = userInput.slice(1).toLowerCase();
+// var titleCase = firstChar + remainingChars;
+// document.write("Result: " + titleCase);
