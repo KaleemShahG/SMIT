@@ -39,3 +39,7 @@
 // document.write("Value: " + num + "<br>");
 // document.write("Type: " + typeof(num));
 
+// var userInput = prompt("Enter any text:");
+// var capitalText = userInput.toUpperCase();
+// document.write("Result: " + capitalText);
+
