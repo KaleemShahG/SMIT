@@ -25,3 +25,7 @@
 // var lastName = prompt("Enter your last name:");
 // var fullName = firstName.concat(" ", lastName);
 // document.write("Hello " + fullName);
+
+var city = "Hyderabad";
+var newCity = city.replace("Hyder", "Islam");
+document.write("City after replacement: " + newCity);
