@@ -16,3 +16,12 @@
 // var text = "Hello World";
 // var lastIndex = text.lastIndexOf("l");
 // document.write("The last index of letter 'l' in the word 'Hello World' is: " + lastIndex);
+
+// var word = "Pakistani";
+// var character = word.charAt(3);
+// document.write("Character at 3rd index in the word 'Pakistani' is: " + character);
+
+// var firstName = prompt("Enter your first name:");
+// var lastName = prompt("Enter your last name:");
+// var fullName = firstName.concat(" ", lastName);
+// document.write("Hello " + fullName);
