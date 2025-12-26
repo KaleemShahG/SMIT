@@ -1,5 +1,6 @@
 // CHAPTER : 31
 // DATE:
+// description : Write a program that calculates and displays the number of days remaining until the first day of Ramadan in the year 2026.
 
 var firstRamadan = new Date("March 23, 2026");
 var today = new Date();
@@ -9,6 +10,7 @@ var finalvalue = firstRamadanGetTime - todayGetTime;
 var lastAnswer = Math.ceil(finalvalue / (1000 * 60 * 60 * 24));
 
 console.log("Days remaining until the first day of Ramadan 2026: " + lastAnswer);
+
 
 
 
