@@ -6,9 +6,17 @@
 // console.log("Ceil value: " + Math.ceil(num));
 
 
-let num = parseFloat(prompt("Enter a negative floating point number"));
+// let num = parseFloat(prompt("Enter a negative floating point number"));
+
+// document.write("Number: " + num + "<br>");
+// document.write("Round off value: " + Math.round(num) + "<br>");
+// document.write("Floor value: " + Math.floor(num) + "<br>");
+// document.write("Ceil value: " + Math.ceil(num));
+
+
+let num = parseFloat(prompt("Enter a number"));
+
+let absValue = Math.abs(num);
 
 document.write("Number: " + num + "<br>");
-document.write("Round off value: " + Math.round(num) + "<br>");
-document.write("Floor value: " + Math.floor(num) + "<br>");
-document.write("Ceil value: " + Math.ceil(num));
+document.write("Absolute value: " + absValue);
