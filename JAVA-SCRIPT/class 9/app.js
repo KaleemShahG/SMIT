@@ -1,6 +1,5 @@
 
 // chapter 35-to-40
-const prompt = require('prompt-sync')({sigint: true});
 //FUNCTIONS
 // var now = new Date();
 // var year = now.getFullYear();
@@ -29,10 +28,9 @@ const prompt = require('prompt-sync')({sigint: true});
 
 
 function calculation(){
-    const num1 = (prompt("Enter First Number: "));
-    const num2 = (prompt("Enter Second Number: "));
-    const operator = prompt("Enter Operator (+, -, *, /): ");
-
+    const num1 = 12;
+    const num2 = 6;
+    const operator = "*";
     if (operator === "+") {
         console.log(num1 + num2);
     } else if (operator === "-") {
