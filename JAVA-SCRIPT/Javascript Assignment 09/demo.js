@@ -18,3 +18,28 @@
 // showCounting(startNum, endNum);
 
 
+// function addNumbers(num1, num2) {
+//   return num1 + num2;
+// }
+// let number1 = parseFloat(prompt("Enter first number"));
+// let number2 = parseFloat(prompt("Enter second number"));
+// let result = addNumbers(number1, number2);
+// document.write("Sum of two numbers is: " + result);
+// function calculate(num1, num2, operator) {
+//   if (operator === "+") {
+//     return num1 + num2;
+//   } else if (operator === "-") {
+//     return num1 - num2;
+//   } else if (operator === "*") {
+//     return num1 * num2;
+//   } else if (operator === "/") {
+//     return num1 / num2;
+//   } else {
+//     return "Invalid Operator";
+//   }
+// }
+// let n1 = parseFloat(prompt("Enter first number"));
+// let n2 = parseFloat(prompt("Enter second number"));
+// let op = prompt("Enter operator (+, -, *, /)");
+// let result = calculate(n1, n2, op);
+// document.write("Result: " + result);
