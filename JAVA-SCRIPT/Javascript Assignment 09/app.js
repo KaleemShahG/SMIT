@@ -76,3 +76,15 @@
 // }
 // let area1 = rectangleArea(5, 10);
 // document.write("Area (using values): " + area1 + "<br>");
+
+
+// let w = 7;
+// let h = 4;
+
+// let area2 = rectangleArea(w, h);
+// document.write("Area (using variables): " + area2);
+// function rectangleArea(width, height) {
+//   return width * height;
+// }
+// let area1 = rectangleArea(5, 10);
+// document.write("Area (using values): " + area1 + "<br>");
