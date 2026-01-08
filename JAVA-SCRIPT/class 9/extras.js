@@ -28,3 +28,16 @@ calculation();
 
 // var username = prompt("Enter Your Name")
 // console.log(username);
+
+
+
+// chapter 35-to-40
+//FUNCTIONS
+// var now = new Date();
+// var year = now.getFullYear();
+// var month = now.getMonth();
+// var date = now.getDate();
+// var day = now.getDay();
+// var hours = now.getHours();
+// var minutes = now.getMinutes();
+// var seconds = now.getSeconds();
