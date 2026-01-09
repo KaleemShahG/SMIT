@@ -5,7 +5,7 @@ for (let i = 0; i<10 ; i++){
     
 }
 
-var y=0;
+var y= 0;
 while(y<10){
     console.log(y);
     y++;
@@ -16,3 +16,14 @@ do{
     console.log(z);
     z++;
 } while(z<10)
+
+// Placing Script 
+
+
+
+// Event 
+
+function greet(){
+    console.log("WELCOME Sir");
+    
+}
