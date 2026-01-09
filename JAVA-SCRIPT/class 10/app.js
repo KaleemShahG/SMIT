@@ -23,7 +23,6 @@ do{
 
 // Event 
 
-function greet(){
-    console.log("WELCOME Sir");
-    
-}
+ function greet() {
+    alert("Hello! Welcome to Kaleem'S site");
+  }
