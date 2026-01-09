@@ -10,3 +10,9 @@ while(y<10){
     console.log(y);
     y++;
 }
+
+var z=0;
+do{
+    console.log(z);
+    z++;
+} while(z<10)
