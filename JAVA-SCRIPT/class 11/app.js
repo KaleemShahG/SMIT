@@ -8,3 +8,4 @@ if(InputValue === ""){
         alert("Username is valid");
     }
 }
+
