@@ -26,3 +26,8 @@ console.log(text.lastIndexOf("may"));
 for (var i=1; i<=10; i++){
     console.log(i);
     }
+
+    // =============fOR lOOPS=================
+for (var i=1; i<=10; i++){
+    console.log(i);
+    }
