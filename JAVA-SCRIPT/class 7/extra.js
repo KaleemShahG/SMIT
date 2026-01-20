@@ -22,6 +22,10 @@ var text = "yes may be possible and may not be"
 console.log(text.indexOf("may"));
 console.log(text.lastIndexOf("may"));
 
+var text = "yes may be possible and may not be"
+console.log(text.indexOf("may"));
+console.log(text.lastIndexOf("may"));
+
 // =============fOR lOOPS=================
 for (var i=1; i<=10; i++){
     console.log(i);
