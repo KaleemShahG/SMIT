@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Record</title>
+</head>
+<body>
+
+<h2>Student Form</h2>
+
+<form onsubmit="addStudent(); return false;">
+  Name: <input type="text" id="sname"><br><br>
+  Class: <input type="text" id="sclass"><br><br>
+  Roll No: <input type="text" id="sroll"><br><br>
+  <button type="submit">Add Student</button>
+</form>
+
+<h2>Student Table</h2>
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Class</th>
+      <th>Roll No</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody id="tableBody"></tbody>
+</table>
+
+<h2 id="editTitle" style="display:none;">Edit Student</h2>
+
+<form id="editForm" style="display:none;" onsubmit="updateStudent(); return false;">
+  Name: <input type="text" id="editName"><br><br>
+  Class: <input type="text" id="editClass"><br><br>
+  Roll No: <input type="text" id="editRoll"><br><br>
+  <button type="submit">Update</button>
+</form>
+
+<script>
+let editRow = null;
+
+function addStudent() {
+  let name = sname.value;
+  let cls = sclass.value;
+  let roll = sroll.value;
+
+  let row = document.createElement("tr");
+
+  row.innerHTML = `
+    <td>${name}</td>
+    <td>${cls}</td>
+    <td>${roll}</td>
+    <td>
+      <button onclick="editStudent(this)">Edit</button>
+      <button onclick="deleteStudent(this)">Delete</button>
+    </td>
+  `;
+
+  tableBody.appendChild(row);
+}
+
+function deleteStudent(btn) {
+  btn.parentElement.parentElement.remove();
+}
+
+function editStudent(btn) {
+  editRow = btn.parentElement.parentElement;
+
+  editName.value = editRow.children[0].innerText;
+  editClass.value = editRow.children[1].innerText;
+  editRoll.value = editRow.children[2].innerText;
+
+  editForm.style.display = "block";
+  editTitle.style.display = "block";
+}
+
+function updateStudent() {
+  editRow.children[0].innerText = editName.value;
+  editRow.children[1].innerText = editClass.value;
+  editRow.children[2].innerText = editRoll.value;
+
+  editForm.style.display = "none";
+  editTitle.style.display = "none";
+}
+</script>
+
+</body>
+</html>
