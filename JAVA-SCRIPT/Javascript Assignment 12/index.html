@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Signup Form</title>
+</head>
+<body>
+
+<h2>Signup Form</h2>
+
+<form onsubmit="showData(); return false;">
+  Name: <input type="text" id="name"><br><br>
+  Email: <input type="email" id="email"><br><br>
+  Password: <input type="password" id="password"><br><br>
+  <button type="submit">Signup</button>
+</form>
+
+<h3>Entered Data:</h3>
+<p id="output"></p>
+
+<script>
+function showData() {
+  let name = document.getElementById("name").value;
+  let email = document.getElementById("email").value;
+  let password = document.getElementById("password").value;
+
+  document.getElementById("output").innerHTML =
+    "Name: " + name + "<br>Email: " + email + "<br>Password: " + password;
+}
+</script>
+
+</body>
+</html>
