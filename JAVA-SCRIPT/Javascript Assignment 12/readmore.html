@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Read More</title>
+</head>
+<body>
+
+<h2>Item Details</h2>
+
+<p>
+  This is a mobile phone with amazing features
+  <span id="more" style="display:none;">
+    including 8GB RAM, 128GB Storage, powerful camera and long battery life.
+  </span>
+</p>
+
+<button onclick="readMore()">Read More</button>
+
+<script>
+function readMore() {
+  document.getElementById("more").style.display = "inline";
+}
+</script>
+
+</body>
+</html>
