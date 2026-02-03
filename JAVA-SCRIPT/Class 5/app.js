@@ -50,3 +50,6 @@ console.log(add5);
 var add5= newstudents.splice(1,0,"QURBAN","fahim"); //Add kardyga 1 ka mtlb index 1 or zero ka mtlb length 0
 console.log(add5);
 
+var add5= newstudents.splice(1,0,"QURBAN","fahim"); //Add kardyga 1 ka mtlb index 1 or zero ka mtlb length 0
+console.log(add5);
+
